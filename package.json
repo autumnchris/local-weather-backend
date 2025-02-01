@@ -13,5 +13,9 @@
   "bugs": {
     "url": "https://github.com/autumnchris/local-weather-backend/issues"
   },
-  "homepage": "https://github.com/autumnchris/local-weather-backend#readme"
+  "homepage": "https://github.com/autumnchris/local-weather-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
 }
