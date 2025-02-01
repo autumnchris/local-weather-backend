@@ -1,0 +1,17 @@
+{
+  "name": "local-weather-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/autumnchris/local-weather-backend.git"
+  },
+  "author": "autumnchris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/autumnchris/local-weather-backend/issues"
+  },
+  "homepage": "https://github.com/autumnchris/local-weather-backend#readme"
+}
