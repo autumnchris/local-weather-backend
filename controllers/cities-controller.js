@@ -20,7 +20,7 @@ exports.fetchCities = (req, res, next) => {
     .then(citiesResponse => {
 
       if (citiesResponse.data.data.length === 0) {
-        return res.status(404).send('No cities were found matching the search input');
+        return res.status(404).send('Error: No cities were found matching the search input');
       }
 
       res.json({
@@ -28,6 +28,6 @@ exports.fetchCities = (req, res, next) => {
       });
     }).catch(error => {
       console.error('Error fetching city data:', error);
-      res.status(500).send('Error fetching city data from GeoDB Cities API');
+      res.status(500).send('Error: Unable to fetch city data from GeoDB Cities API');
     });
 }
