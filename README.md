@@ -6,6 +6,8 @@
 * [Express.js](https://expressjs.com)
 * [Node.js](https://nodejs.org/en)
 * JavaScript
+* [OpenWeatherMap API](https://openweathermap.org)
+* [GeoDB Cities API](https://rapidapi.com/wirefreethought/api/geodb-cities)
 * [Axios](https://axios-http.com)
 * [dotenv](https://github.com/motdotla/dotenv)
 * [nodemon](https://nodemon.io)
