@@ -1,7 +1,7 @@
 {
   "name": "local-weather-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "A back-end Express.js server to call the relevant external APIs needed to run my front-end Local Weather App.",
   "main": "server.js",
   "scripts": {
     "dev": "nodemon server",

@@ -1,5 +1,10 @@
 # Local Weather Backend
 
+A back-end Express.js server to call the relevant external APIs needed to run my front-end Local Weather App.
+
+* [Local Weather App (React.js version)](https://github.com/autumnchris/local-weather-app-reactjs)
+* [Local Weather App (vanilla JS version)](https://github.com/autumnchris/local-weather-app-vanilla-js)
+
 ---
 
 ## Built With
