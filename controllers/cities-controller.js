@@ -18,11 +18,6 @@ exports.fetchCities = (req, res, next) => {
 
   axios.request(options)
     .then(citiesResponse => {
-
-      if (citiesResponse.data.data.length === 0) {
-        return res.status(404).send('Error: No cities were found matching the search input');
-      }
-
       res.json({
         cities: citiesResponse.data
       });
