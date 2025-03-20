@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title><%= typeof title !== 'undefined' ? `${title} | `: '' %>Local Weather Backend API</title>
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/stylesheets/normalize.css">
+    <link rel="stylesheet" href="/stylesheets/fontawesome.min.css">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+  </head>
+  <body>
+    <%- body %>
+    <script>
+      function events() {
+        document.addEventListener('click', event => {
+          const element = event.target;
+          element.matches('.copy-button.api-weather') ? copyText('https://autumnchris-local-weather-backend.onrender.com/weather?lat=<your-latitude>&lon=<your-longitude>') : null;
+          element.matches('.copy-button.api-cities') ? copyText('https://autumnchris-local-weather-backend.onrender.com/cities?searchInput=<your-city-search-input>') : null;
+        });
+      }
+
+      function copyText(text) {
+        navigator.clipboard.writeText(text);
+      }
+      
+      events();
+    </script>
+  </body>
+</html>

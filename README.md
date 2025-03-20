@@ -1,6 +1,6 @@
 # Local Weather Backend
 
-A back-end Express.js server to call the relevant external APIs needed to run my front-end Local Weather App.
+An Express.js API that calls the relevant external APIs needed to run a front-end local weather app.
 
 * [Local Weather App (React.js version)](https://github.com/autumnchris/local-weather-app-reactjs)
 * [Local Weather App (vanilla JS version)](https://github.com/autumnchris/local-weather-app-vanilla-js)
@@ -11,10 +11,17 @@ A back-end Express.js server to call the relevant external APIs needed to run my
 * [Express.js](https://expressjs.com)
 * [Node.js](https://nodejs.org/en)
 * JavaScript
+* [EJS](https://ejs.co)
+* HTML5
+* CSS3
+* Vanilla JS
 * [OpenWeatherMap API](https://openweathermap.org)
 * [GeoDB Cities API](https://rapidapi.com/wirefreethought/api/geodb-cities)
 * [Axios](https://axios-http.com)
 * [dotenv](https://github.com/motdotla/dotenv)
+* [Normalize.css](https://necolas.github.io/normalize.css)
+* [Google Fonts](https://fonts.google.com)
+* [Font Awesome](https://fontawesome.com)
 * [nodemon](https://nodemon.io)
 
 ## Demo

@@ -1,0 +1,214 @@
+@font-face {
+  font-family: Oxygen;
+  src: url(../assets/fonts/Oxygen-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Oxygen Mono";
+  src: url(../assets/fonts/OxygenMono-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Font Awesome 6 Free";
+  src: url(../assets/fonts/fa-regular-400.ttf);
+}
+
+/* BASE PAGE STYLES */
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  background: transparent;
+  font-family: Oxygen, sans-serif;
+  font-size: 0.9rem;
+  height: 100%;
+  letter-spacing: 1px;
+}
+
+body {
+  background: hsl(0, 0%, 11%);
+  background: -o-linear-gradient(330deg, hsl(0, 0%, 11%), hsl(270, 18%, 19%)) fixed;
+  background: linear-gradient(120deg, hsl(0, 0%, 11%), hsl(270, 18%, 19%)) fixed;
+  color: hsl(0, 0%, 100%);
+  min-height: 100%;
+  -ms-scroll-chaining: none;
+  overscroll-behavior: none;
+  padding: 0 20px;
+  position: relative;
+}
+
+header {
+  margin: 0 auto;
+  max-width: 600px;
+  padding-top: 40px;
+  text-align: center;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 600px;
+  padding-bottom: 6rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+  margin-top: 0;
+}
+
+h1 {
+  letter-spacing: 4px;
+}
+
+h2 {
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+h3 {
+  letter-spacing: 2px;
+  padding-top: 20px;
+}
+
+a,
+a:visited,
+a:hover,
+a:active,
+a:focus {
+  color: hsl(270, 100%, 85%);
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:focus,
+button:focus,
+details:focus,
+input:focus,
+select:focus,
+textarea:focus,
+[tabindex]:focus {
+  -webkit-box-shadow: 0 0 3px 3px hsla(203, 95%, 62%, 0.8);
+  box-shadow: 0 0 3px 3px hsla(203, 95%, 62%, 0.8);
+  outline: none;
+}
+
+p {
+  line-height: 1.5;
+  margin: 20px 0;
+}
+
+hr {
+  border: 0;
+  border-bottom: 1px solid hsl(0, 0%, 60%);
+}
+
+.api-description {
+  padding-top: 5px;
+  text-align: left;
+}
+
+.section-lvl1 {
+  padding-top: 30px;
+}
+
+.section-lvl2 {
+  padding-bottom: 15px;
+}
+
+/* Code styles */
+code {
+  background: hsl(270, 100%, 95%);
+  border-radius: 2px;
+  color: hsl(270, 100%, 30%);
+  font-family: "Oxygen Mono", monospace;
+  padding: 2px;
+  white-space: nowrap;
+}
+
+pre {
+  background: hsl(270, 100%, 95%);
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  overflow-x: auto;
+  padding: 12px;
+}
+
+pre code {
+  background: transparent;
+  border-radius: 0;
+  line-height: 1.3;
+  white-space: pre;
+}
+
+pre .api-link {
+  white-space: normal;
+  width: 90%;
+  word-break: break-all;
+}
+
+/* Button styles */
+.button,
+.button:visited,
+.button:hover,
+.button:active,
+.button:focus {
+  background: hsl(270, 100%, 85%);
+  border: 0;
+  border-radius: 4px;
+  color: hsl(270, 100%, 25%);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: hsl(270, 100%, 82%);
+}
+
+.copy-button,
+.copy-button:visited,
+.copy-button:hover,
+.copy-button:active,
+.copy-button:focus {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 30px;
+  margin-left: 10px;
+  width: 30px;
+}
+
+.copy-icon {
+  pointer-events: none;
+}
+
+/* MEDIA QUERIES */
+
+@media all and (min-width: 500px) {
+
+  html {
+    font-size: inherit;
+  }
+}
