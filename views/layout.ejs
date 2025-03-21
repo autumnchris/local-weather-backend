@@ -15,8 +15,8 @@
       function events() {
         document.addEventListener('click', event => {
           const element = event.target;
-          element.matches('.copy-button.api-weather') ? copyText('https://autumnchris-local-weather-backend.onrender.com/api/weather?lat=<your-latitude>&lon=<your-longitude>') : null;
-          element.matches('.copy-button.api-cities') ? copyText('https://autumnchris-local-weather-backend.onrender.com/api/cities?searchInput=<your-city-search-input>') : null;
+          element.matches('.copy-button.api-weather') ? copyText('https://autumnchris-local-weather-backend-api.onrender.com/api/weather?lat=<your-latitude>&lon=<your-longitude>') : null;
+          element.matches('.copy-button.api-cities') ? copyText('https://autumnchris-local-weather-backend-api.onrender.com/api/cities?searchInput=<your-city-search-input>') : null;
         });
       }
 

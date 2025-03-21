@@ -1,4 +1,4 @@
-# Local Weather Backend
+# Local Weather Backend API
 
 An Express.js API that calls the relevant external APIs needed to run a front-end local weather app.
 
@@ -26,7 +26,7 @@ An Express.js API that calls the relevant external APIs needed to run a front-en
 
 ## Demo
 
-View project demo at [https://autumnchris-local-weather-backend.onrender.com](https://autumnchris-local-weather-backend.onrender.com).
+View project demo at [https://autumnchris-local-weather-backend-api.onrender.com/api](https://autumnchris-local-weather-backend-api.onrender.com/api).
 
 ## Instructions
 

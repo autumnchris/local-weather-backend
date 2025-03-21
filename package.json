@@ -1,5 +1,5 @@
 {
-  "name": "local-weather-backend",
+  "name": "local-weather-backend-api",
   "version": "1.0.0",
   "description": "An Express.js API that calls the relevant external APIs needed to run a front-end local weather app.",
   "main": "app.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/autumnchris/local-weather-backend.git"
+    "url": "git+https://github.com/autumnchris/local-weather-backend-api.git"
   },
   "author": "autumnchris",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/autumnchris/local-weather-backend/issues"
+    "url": "https://github.com/autumnchris/local-weather-backend-api/issues"
   },
-  "homepage": "https://github.com/autumnchris/local-weather-backend#readme",
+  "homepage": "https://autumnchris-local-weather-backend-api.onrender.com/api",
   "dependencies": {
     "axios": "^1.8.4",
     "cors": "^2.8.5",
